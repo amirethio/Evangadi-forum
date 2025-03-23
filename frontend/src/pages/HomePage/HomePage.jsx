@@ -66,7 +66,7 @@ const HomePage = () => {
                 </div>
 
                 <Link to={"/QuestionDetail"} className={style.question_title}>
-                  {q.title}
+                  <p>{q.title}</p>
                   {/* <QuestionItem/> */}
                 </Link>
               </div>
